@@ -1,0 +1,95 @@
+/* main */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+main {
+    background-color: #fff;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    background-color: #fff;
+    border: 1px #ccc solid;
+    border-radius: 10px;
+}
+
+/* header */
+.header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    display: inherit;
+    justify-content: center;
+    flex-direction: column;
+}
+.header input {
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid;  
+    color: #ccc;
+}
+
+/* item-list */
+.item-list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    display: inherit;
+    justify-content: center;
+    align-items: start;
+}
+.item-list ul {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px #ccc solid; 
+    margin-bottom: 20px;
+}
+.item-list ul li {
+    list-style: none;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+.item-list ul li:last-child {
+    border-bottom: 0px solid #ccc;
+}
+.item-list ul li span {
+    display: inline-block; 
+    font-size: 20px;
+    width: 90%;
+    flex: 1;
+}
+.item-list ul li button {
+    display: none;
+}
+.item-list ul li:hover button {
+    display: inline-block;
+}
+
+/* footer */
+.footer {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px #ccc solid; 
+    padding: 10px;
+    width: 90%;
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer span {
+    width: 80%;
+}
